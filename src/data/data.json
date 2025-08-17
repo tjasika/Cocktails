@@ -1,0 +1,312 @@
+[
+    {
+        "id": 1,
+        "name": "Martini",
+        "shortDescription": "Shaken, stirred, classy!",
+        "longDescription": "A timeless gin and vermouth mix, garnished with an olive or lemon twist.",
+        "ingredients": [
+            {"ingredient": "gin", "amount": "2 1/2 oz"},
+            {"ingredient": "dry vermouth", "amount": "1/2 oz"},
+            {"ingredient": "olive or lemon twist", "amount": "garnish"}
+        ],
+        "image": "/images/martini.png",
+        "strength": "strong",
+        "category": "Classics",
+        "tags": ["gin", "classic", "spirit-forward"]
+    },
+    {
+        "id": 2,
+        "name": "Cosmopolitan",
+        "shortDescription": "Chic and tangy!",
+        "longDescription": "Vodka, cranberry, lime, and triple sec create this iconic pink cocktail.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "1 oz"},
+            {"ingredient": "cranberry juice", "amount": "3/4 oz"},
+            {"ingredient": "lime juice", "amount": "3/4 oz"},
+            {"ingredient": "triple sec", "amount": "1 oz"}
+        ],
+        "image": "/images/cosmopolitan.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["vodka", "fruity", "modern-classic"]
+    },
+    {
+        "id": 3,
+        "name": "Tequila Sunrise",
+        "shortDescription": "Sunrise in a glass!",
+        "longDescription": "Tequila, orange juice, and grenadine layered for a beautiful sunrise effect.",
+        "ingredients": [
+            {"ingredient": "tequila", "amount": "2 oz"},
+            {"ingredient": "orange juice", "amount": "4 oz"},
+            {"ingredient": "grenadine", "amount": "1/2 oz"}
+        ],
+        "image": "/images/tequilasunrise.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["tequila", "fruity", "layered"]
+    },
+    {
+        "id": 4,
+        "name": "Pina Colada",
+        "shortDescription": "Tropical and creamy!",
+        "longDescription": "A luscious blend of rum, coconut, and pineapple, perfect for beach vibes.",
+        "ingredients": [
+            {"ingredient": "rum", "amount": "2 oz"},
+            {"ingredient": "coconut cream", "amount": "1 oz"},
+            {"ingredient": "pineapple juice", "amount": "3 oz"}
+        ],
+        "image": "/images/img.jpg",
+        "strength": "strong",
+        "category": "Tropical",
+        "tags": ["rum", "creamy", "tropical", "sweet"]
+    },
+    {
+        "id": 5,
+        "name": "Blue Lagoon",
+        "shortDescription": "Electric and zesty!",
+        "longDescription": "Vodka, blue curaçao, and lemonade for a bright, eye-catching cocktail.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "1 1/2 oz"},
+            {"ingredient": "blue curaçao", "amount": "1 oz"},
+            {"ingredient": "lemonade", "amount": "4 oz"}
+        ],
+        "image": "/images/bluelagoon.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["vodka", "citrusy", "tropical", "bright"]
+    },
+    {
+        "id": 6,
+        "name": "Mai Tai",
+        "shortDescription": "Fruity tiki fun!",
+        "longDescription": "Rum, lime, and tropical flavors make this a tiki classic.",
+        "ingredients": [
+            {"ingredient": "white rum", "amount": "1 oz"},
+            {"ingredient": "dark rum", "amount": "1 oz"},
+            {"ingredient": "orange curaçao", "amount": "1/2 oz"},
+            {"ingredient": "lime juice", "amount": "1 oz"},
+            {"ingredient": "or syrup", "amount": "1/2 oz"}
+        ],
+        "image": "/images/maitai.png",
+        "strength": "strong",
+        "category": "Tropical",
+        "tags": ["rum", "tiki", "fruity", "tropical"]
+    },
+    {
+        "id": 7,
+        "name": "Pornstar Martini",
+        "shortDescription": "Bold and playful!",
+        "longDescription": "Vodka, passionfruit, and vanilla liqueur served with a shot of prosecco.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "2 oz"},
+            {"ingredient": "passionfruit liqueur", "amount": "1 oz"},
+            {"ingredient": "vanilla syrup", "amount": "1/2 oz"},
+            {"ingredient": "lime juice", "amount": "1/2 oz"}
+        ],
+        "image": "/images/pornstarmartini.png",
+        "strength": "strong",
+        "category": "Tropical",
+        "tags": ["vodka", "passionfruit", "sweet", "modern-classic"]
+    },
+    {
+        "id": 8,
+        "name": "Negroni",
+        "shortDescription": "Bitter, bold, perfect!",
+        "longDescription": "Gin, Campari, and sweet vermouth make this an elegant aperitif.",
+        "ingredients": [
+            {"ingredient": "gin", "amount": "1 oz"},
+            {"ingredient": "Campari", "amount": "1 oz"},
+            {"ingredient": "sweet vermouth", "amount": "1 oz"}
+        ],
+        "image": "/images/negroni.png",
+        "strength": "strong",
+        "category": "Classics",
+        "tags": ["gin", "bitter", "classic", "aperitif"]
+    },
+    {
+        "id": 9,
+        "name": "Espresso Martini",
+        "shortDescription": "Coffee kick with a twist!",
+        "longDescription": "Vodka, coffee liqueur, and espresso make this a caffeinated delight.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "1 1/2 oz"},
+            {"ingredient": "coffee liqueur", "amount": "1 oz"},
+            {"ingredient": "fresh espresso", "amount": "1 oz"}
+        ],
+        "image": "/images/espressomartini.png",
+        "strength": "strong",
+        "category": "Sours & Unique",
+        "tags": ["vodka", "coffee", "modern-classic"]
+    },
+    {
+        "id": 10,
+        "name": "Whiskey Sour",
+        "shortDescription": "Tangy whiskey delight!",
+        "longDescription": "A mix of whiskey, lemon, and sugar for the perfect balance of sweet and sour.",
+        "ingredients": [
+            {"ingredient": "whiskey", "amount": "2 oz"},
+            {"ingredient": "lemon juice", "amount": "3/4 oz"},
+            {"ingredient": "simple syrup", "amount": "3/4 oz"},
+            {"ingredient": "egg white", "amount": "optional"}
+        ],
+        "image": "/images/whiskeysour.png",
+        "strength": "strong",
+        "category": "Sours & Unique",
+        "tags": ["whiskey", "sour", "citrusy"]
+    },
+    {
+        "id": 11,
+        "name": "Aperol Spritz",
+        "shortDescription": "Bubbly and sunny!",
+        "longDescription": "Aperol, prosecco, and soda make this a light, refreshing aperitif.",
+        "ingredients": [
+            {"ingredient": "Aperol", "amount": "3 oz"},
+            {"ingredient": "prosecco", "amount": "3 oz"},
+            {"ingredient": "soda water", "amount": "1 oz"},
+            {"ingredient": "orange slice", "amount": "garnish"}
+        ],
+        "image": "/images/aperolspritz.png",
+        "strength": "strong",
+        "category": "Spritzes",
+        "tags": ["aperitif", "bitter", "spritz", "fizzy"]
+    },
+    {
+        "id": 12,
+        "name": "Sex on the Beach",
+        "shortDescription": "Sweet, fruity, and fun!",
+        "longDescription": "Vodka, peach schnapps, cranberry, and orange juice make a tropical favorite.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "1 1/2 oz"},
+            {"ingredient": "peach schnapps", "amount": "1/2 oz"},
+            {"ingredient": "orange juice", "amount": "2 oz"},
+            {"ingredient": "cranberry juice", "amount": "2 oz"}
+        ],
+        "image": "/images/sexonthebeach.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["vodka", "fruity", "tropical"]
+    },
+    {
+        "id": 13,
+        "name": "White Russian",
+        "shortDescription": "Creamy, dreamy, boozy!",
+        "longDescription": "Vodka, coffee liqueur, and cream for a rich dessert-style cocktail.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "2 oz"},
+            {"ingredient": "coffee liqueur", "amount": "1 oz"},
+            {"ingredient": "cream", "amount": "1 oz"}
+        ],
+        "image": "/images/whiterussian.png",
+        "strength": "strong",
+        "category": "Sours & Unique",
+        "tags": ["vodka", "coffee", "creamy", "dessert"]
+    },
+    {
+        "id": 14,
+        "name": "Margarita",
+        "shortDescription": "Citrusy tequila bliss!",
+        "longDescription": "Tequila, lime, and triple sec served with a salted rim, the ultimate classic.",
+        "ingredients": [
+            {"ingredient": "tequila", "amount": "2 oz"},
+            {"ingredient": "lime juice", "amount": "1 oz"},
+            {"ingredient": "triple sec", "amount": "1 oz"}
+        ],
+        "image": "/images/margarita.png",
+        "strength": "strong",
+        "category": "Sours & Unique",
+        "tags": ["tequila", "sour", "citrusy"]
+    },
+    {
+        "id": 15,
+        "name": "Tom Collins",
+        "shortDescription": "Tall, fizzy, refreshing!",
+        "longDescription": "Gin, lemon, sugar, and soda water make a long, sparkling drink.",
+        "ingredients": [
+            {"ingredient": "gin", "amount": "2 oz"},
+            {"ingredient": "lemon juice", "amount": "1 oz"},
+            {"ingredient": "simple syrup", "amount": "1/2 oz"},
+            {"ingredient": "soda water", "amount": "top"}
+        ],
+        "image": "/images/tomcollins.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["gin", "refreshing", "citrusy", "long-drink"]
+    },
+    {
+        "id": 16,
+        "name": "Manhattan",
+        "shortDescription": "Whiskey elegance!",
+        "longDescription": "Whiskey, sweet vermouth, and bitters combine for a classic, spirit-forward cocktail.",
+        "ingredients": [
+            {"ingredient": "whiskey", "amount": "2 oz"},
+            {"ingredient": "sweet vermouth", "amount": "1 oz"},
+            {"ingredient": "Angostura bitters", "amount": "2 dashes"}
+        ],
+        "image": "/images/manhattan.png",
+        "strength": "strong",
+        "category": "Classics",
+        "tags": ["whiskey", "classic", "spirit-forward"]
+    },
+    {
+        "id": 17,
+        "name": "Bloody Mary",
+        "shortDescription": "Brunch hero!",
+        "longDescription": "Vodka and tomato juice, spiced to perfection for a savory morning pick-me-up.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "1 1/2 oz"},
+            {"ingredient": "tomato juice", "amount": "3 oz"},
+            {"ingredient": "lemon juice", "amount": "1/2 oz"},
+            {"ingredient": "Worcestershire sauce, hot sauce, celery salt", "amount": "to taste"}
+        ],
+        "image": "/images/bloodymary.png",
+        "strength": "strong",
+        "category": "Sours & Unique",
+        "tags": ["vodka", "savory", "brunch"]
+    },
+    {
+        "id": 18,
+        "name": "Paloma",
+        "shortDescription": "Grapefruit fizz!",
+        "longDescription": "Tequila, grapefruit soda, and lime for a refreshing Mexican classic.",
+        "ingredients": [
+            {"ingredient": "tequila", "amount": "2 oz"},
+            {"ingredient": "grapefruit soda", "amount": "4 oz"},
+            {"ingredient": "lime juice", "amount": "1/2 oz"},
+            {"ingredient": "salt", "amount": "rim"}
+        ],
+        "image": "/images/paloma.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["tequila", "refreshing", "grapefruit", "fizzy"]
+    },
+    {
+        "id": 19,
+        "name": "Moscow Mule",
+        "shortDescription": "Ginger bite in copper!",
+        "longDescription": "Vodka, ginger beer, and lime served in a classic copper mug for zingy refreshment.",
+        "ingredients": [
+            {"ingredient": "vodka", "amount": "2 oz"},
+            {"ingredient": "ginger beer", "amount": "4 oz"},
+            {"ingredient": "lime juice", "amount": "1/2 oz"}
+        ],
+        "image": "/images/moscowmule.png",
+        "strength": "strong",
+        "category": "Fruity & Refreshing",
+        "tags": ["vodka", "ginger", "refreshing", "fizzy"]
+    },
+    {
+        "id": 20,
+        "name": "Caipirinha",
+        "shortDescription": "Brazilian lime bliss!",
+        "longDescription": "Cachaça, sugar, and lime come together for Brazil’s national cocktail.",
+        "ingredients": [
+            {"ingredient": "cachaça", "amount": "2 oz"},
+            {"ingredient": "lime", "amount": "1"},
+            {"ingredient": "sugar", "amount": "2 tsp"}
+        ],
+        "image": "/images/caipirinha.png",
+        "strength": "strong",
+        "category": "Tropical",
+        "tags": ["cachaça", "lime", "sweet", "tropical"]
+    }
+]
