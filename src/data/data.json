@@ -55,7 +55,7 @@
             {"ingredient": "coconut cream", "amount": "1 oz"},
             {"ingredient": "pineapple juice", "amount": "3 oz"}
         ],
-        "image": "/images/img.jpg",
+        "image": "/images/pinacolada.png",
         "strength": "strong",
         "category": "Tropical",
         "tags": ["rum", "creamy", "tropical", "sweet"]
