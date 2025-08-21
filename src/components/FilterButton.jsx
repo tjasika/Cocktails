@@ -1,6 +1,12 @@
-export const FilterButton = ({text}) => {
+export const FilterButton = ({text, isActive, onClick}) => {
     return (
-        <button className="p-2 rounded-3xl bg-zinc-50 text-zinc-700 w-45 transition-colors duration-300 hover:bg-zinc-400 cursor-pointer hover:text-zinc-200">
+        <button 
+        onClick={onClick}
+        
+        className={`p-2 rounded-3xl w-50 hover:cursor-pointer
+            ${isActive
+                ? "bg-zinc-700 text-white border-zinc-900"
+                : "bg-white text-zinc-800 border-zinc-300 hover:bg-zinc-100"}`}>
             {text}
         </button>
     )
