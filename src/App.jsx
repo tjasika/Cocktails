@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-5 p-5 w-full h-full min-h-screen bg-zinc-200">
+      <div className="flex flex-col items-center gap-5 p-5 w-screen h-full min-h-screen bg-zinc-200">
           <h1 className="text-5xl font-bold text-zinc-700">Cocktails</h1>
           <div className='pb-2 pl-10 flex flex-row gap-3 items-left w-full'>
               {categories.map((filter, index)=> (

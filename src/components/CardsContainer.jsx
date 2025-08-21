@@ -3,7 +3,7 @@ import { Card } from './Card';
 export const CardsContainer = ({cocktails}) => {
     return (
         <>
-        <div className='grid grid-cols-4 gap-5'>
+        <div className='grid grid-cols-4 gap-5 w-360'>
            {cocktails.map((cocktail) => (
                 <Card 
                 key={cocktail.id} 
