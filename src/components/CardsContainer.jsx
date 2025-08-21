@@ -9,7 +9,8 @@ export const CardsContainer = ({cocktails}) => {
                 key={cocktail.id} 
                 name={cocktail.name} 
                 image={cocktail.image}
-                shortDescription={cocktail.shortDescription} />
+                shortDescription={cocktail.shortDescription}
+                tags={cocktail.tags} />
             ))}
         </div>
         </>

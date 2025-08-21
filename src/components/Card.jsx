@@ -1,4 +1,4 @@
-export const Card = ({name, image, shortDescription}) => {
+export const Card = ({name, image, shortDescription, tags}) => {
     return (
         <div className="bg-zinc-50 h-95 w-85 rounded-xl p-5 flex flex-col items-center shadow-lg
                 transition-transform duration-300 hover:-translate-y-2
@@ -10,6 +10,13 @@ export const Card = ({name, image, shortDescription}) => {
             <div className="w-75 pt-4 text-zinc-700">
                 <h1 className="font-bold text-2xl">{name}</h1>
                 <p>{shortDescription}</p>
+            </div>
+            <div className="pt-3 flex flex-row gap-3 w-full text-zinc-500 text-sm">
+                {tags.map((tag, index) => (
+                    <span key={index} >
+                        {tag}
+                    </span>
+                ))}
             </div>
            
         </div>
