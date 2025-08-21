@@ -1,9 +1,12 @@
 import { useState, useMemo } from 'react'
+import { Routes, Route, Navigate } from 'react-router-dom';
 import './style.css'
 import cocktails from './data/data.json'
 import categories from './data/categories.json'
 import { CardsContainer } from './components/CardsContainer'
 import { FilterButton } from './components/FilterButton'
+import Details from './Details.jsx';
+
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -30,4 +33,13 @@ function App() {
   )
 }
 
-export default App
+
+export default function AppRoutes() {
+  return (
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="/cocktail/:id" element={<Details />} />
+      <Route path="*" element={<Navigate to="/" replace />} />
+    </Routes>
+  )
+}

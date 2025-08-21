@@ -6,7 +6,8 @@ export const CardsContainer = ({cocktails}) => {
         <div className='grid grid-cols-4 gap-5 w-360'>
            {cocktails.map((cocktail) => (
                 <Card 
-                key={cocktail.id} 
+                key={cocktail.id}
+                id={cocktail.id}
                 name={cocktail.name} 
                 image={cocktail.image}
                 shortDescription={cocktail.shortDescription}
